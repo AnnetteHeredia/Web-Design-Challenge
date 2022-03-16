@@ -20,6 +20,7 @@ a.navbar-brand{
 
 .dropdown-menu {
     margin: 0;
+    background-color: #ddd;
 }
 
 /* header styling*/
