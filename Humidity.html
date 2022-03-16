@@ -15,57 +15,58 @@
 </head>
 <body>
  <!--Navbar -->
+ <!--Navbar -->
  <nav class="navbar navbar-expand-md navbar-light">
-    <div class="container-fluid">
-      <a aria-current="page" href="index.html" class="navbar-brand">Navigation (Home)</a>
-      <button class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto">
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="comparisons.html">Comparisons</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="data.html">Data</a>
-        </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" 
-            href="" 
-            id="navbarNavDropdown" 
-            role="button" 
-            data-bs-toggle="dropdown" 
-            aria-expanded="false">Plots</a>
+  <div class="container-fluid">
+    <a aria-current="page" href="index.html" class="navbar-brand">Navigation (Home)</a>
+    <button class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="#navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="comparisons.html">Comparisons</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="data.html">Data</a>
+      </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" 
+          href="#someting goes here" 
+          id="navbarNavDropdown" 
+          role="button" 
+          data-bs-toggle="dropdown" 
+          aria-expanded="false">Plots</a>
 
-            <ul class="dropdown-menu" aria-labelledby="navbarNavDropdown">
-              <li><a class="dropdown-item" href="max_temp.html">Max Temperatures</a></li>
-              <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
-              <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-              <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
-            </ul>
-        </ul>
-      </div>
+          <ul class="dropdown-menu" aria-labelledby="navbarNavDropdown">
+            <li><a class="dropdown-item" href="max_temp.html">Max Temperatures</a></li>
+            <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
+            <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+            <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+          </ul>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!--humiditycontent adjustments-->
 <div class="container content">
     <div class="row">
         <div class="col-md-8">
             <div class="col-md-12">
-                <h3>Max Temperature</h3>
+                <h3>Humidity</h3>
                 <hr>
-                <img src="Resources/assets/Visualizations/Fig2.png" width="100%" alt="temperature">
+                <img src="Resources/assets/Visualizations/Fig2.png" width="100%" alt="humidity">
                 <br>
-                <p>As expected, the weather becomes significantaly warmer as one approaches the equator (Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+                <p>Humidity vs latitude plot is not showing any trends. Humidity appears to be mostly regular across latitudes, though with an absence of lower humidity values near the equator and Arctic. This makes sense, due to the humidity of tropical climates, and the northern latitudes being on the boundary between winter and spring.  </p>
             </div>
         </div>
         <!--visualizations container -->
@@ -94,6 +95,9 @@
         </div>            
     </div>    
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+  crossorigin="anonymous">
+</script> 
 </body>
 </html>
